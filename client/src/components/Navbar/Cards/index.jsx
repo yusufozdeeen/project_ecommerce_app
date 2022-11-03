@@ -7,6 +7,7 @@ import { useBasket } from '../../../contexts/BasketContext'
 const Cards = ({item}) => {
   const {addToBasket,items}=useBasket();
   const findBasketItem=items.find((basket_item)=>basket_item._id===item._id)
+  console.log("object")
 
   return (
     <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p="3">
