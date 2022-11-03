@@ -1,0 +1,35 @@
+#nav{
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    line-height: 2px;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    
+}
+.right a:first-child{
+    margin-right: 7px;
+}
+#nav .left .menu{
+    display: flex;
+    margin-left: 37px;
+}
+
+.menu>li>a {
+    color: green;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    
+}
+.menu>li>a:hover {
+    color: #000;
+}
+
+.logo{
+    font-weight: bold ;
+}
